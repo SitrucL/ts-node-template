@@ -9,7 +9,7 @@
       "lib": ["es2020"],
       "strict": true,
       "sourceMap": true,
-      "types": [],
+      "types": ["node"],
       "outDir": "dist",
       "skipLibCheck": true
   },

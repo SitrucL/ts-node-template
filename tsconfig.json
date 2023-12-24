@@ -1,23 +1,16 @@
 {
-  "compilerOptions": {
-      "target": "ES2017",
-      "module": "ESNext",
-      "moduleResolution": "node",
-      "experimentalDecorators": true,
-      "noImplicitAny": true,
-      "esModuleInterop": true,
-      "lib": ["es2020"],
-      "strict": true,
-      "sourceMap": true,
-      "types": ["node"],
-      "outDir": "dist",
-      "skipLibCheck": true
-  },
-  "ts-node": {
-      // Tell ts-node CLI to install the --loader automatically
-      "esm": true
-  },
-
-  "include": ["./**/*.ts"],
-  "exclude": ["node_modules", "./node_modules", "./node_modules/*", "./node_modules/@types/node/index.d.ts"]
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "lib": ["es2020"],
+        "strict": true,
+        "sourceMap": true,
+        "types": ["node"],
+        "outDir": "dist/src",
+        "skipLibCheck": true
+    }
 }
